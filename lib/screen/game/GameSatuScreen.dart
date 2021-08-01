@@ -107,7 +107,7 @@ class _GameSatuScreenState extends State<GameSatuScreen> {
                                                 (Route<dynamic> route) => false)
                                           },
                                       child: Text(
-                                        "Lanjutkan",
+                                        "Masuk ke quiz",
                                         style: TextStyle(
                                             color: Colors.white,
                                             fontWeight: FontWeight.bold),

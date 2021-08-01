@@ -208,10 +208,11 @@ class _LoginScreenState extends State<LoginScreen> {
                                   child: Column(
                                     children: [
                                       AnimatedButton(
+
                                         text: 'Masuk',
                                         borderRadius: BorderRadius.circular(5),
                                         buttonTextStyle:
-                                            TextStyle(fontSize: 16),
+                                            TextStyle(fontSize: 16, ),
                                         pressEvent: () {
                                           submitLoginMurid(context);
                                         },
